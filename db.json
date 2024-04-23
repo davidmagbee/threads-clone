@@ -1,0 +1,396 @@
+{
+  "users": [
+    {
+        "id": "0",
+        "user_uuid": "c6f29f62-ae45-4853-87d4-33e2c5a87be9",
+        "username": "magbee",
+        "handle": "@magbee",
+        "bio": "Full Stack Developer | Educator | Husband | Father",
+        "link": "https://www.davidmagbee.com",
+        "avatar": "https://i.imgur.com/k3pli8V.png",
+        "instagram_url": "https://www.instagram.com/magbee",
+        "followers": [
+          {
+            "user_uuid": "9fe6437d-45d7-4461-aa53-d50e01253195"
+          },
+          {
+            "user_uuid": "5a6b8899-dd3b-4ae9-bc75-7e10f564a66f"
+          }
+        ]
+      },
+    {
+      "id": "1",
+      "user_uuid": "f59d398d-761e-460c-a46e-4cb68960cbba",
+      "username": "sizzlingswan632",
+      "handle": "@swan632",
+      "bio": "Tech enthusiast | Coffee lover | Explorer",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=49",
+      "instagram_url": "https://www.instagram.com/sizzlingswan632/",
+      "followers": [
+        {
+          "user_uuid": "9fe6437d-45d7-4461-aa53-d50e01253195"
+        },
+        {
+          "user_uuid": "5a6b8899-dd3b-4ae9-bc75-7e10f564a66f"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user_uuid": "9fe6437d-45d7-4461-aa53-d50e01253195",
+      "username": "lazyladybug195",
+      "handle": "@ladybug195",
+      "bio": "Bookworm | Nature lover | Dreamer",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=44",
+      "instagram_url": "https://www.instagram.com/lazyladybug195/",
+      "followers": [
+        {
+          "user_uuid": "f59d398d-761e-460c-a46e-4cb68960cbba"
+        },
+        {
+          "user_uuid": "6b51857a-bee2-4f6c-8dc7-04bae39b5c4b"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "user_uuid": "5a6b8899-dd3b-4ae9-bc75-7e10f564a66f",
+      "username": "jollygorilla341",
+      "handle": "@gorilla341",
+      "bio": "Fitness enthusiast | Foodie | Dog lover",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=27",
+      "instagram_url": "https://www.instagram.com/jollygorilla341/",
+      "followers": [
+        {
+          "user_uuid": "f59d398d-761e-460c-a46e-4cb68960cbba"
+        },
+        {
+          "user_uuid": "9fe6437d-45d7-4461-aa53-d50e01253195"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "user_uuid": "6b51857a-bee2-4f6c-8dc7-04bae39b5c4b",
+      "username": "whiteladybug706",
+      "handle": "@ladybug706",
+      "bio": "Art lover | Musician | Dreamer",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=55",
+      "instagram_url": "https://www.instagram.com/whiteladybug706/",
+      "followers": [
+        {
+          "user_uuid": "9fe6437d-45d7-4461-aa53-d50e01253195"
+        },
+        {
+          "user_uuid": "c8f3660a-5cf3-436a-baf7-42723614218b"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "user_uuid": "c8f3660a-5cf3-436a-baf7-42723614218b",
+      "username": "purplewolf347",
+      "handle": "@wolf347",
+      "bio": "Photographer | Traveler | Coffee addict",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=58",
+      "instagram_url": "https://www.instagram.com/purplewolf347/",
+      "followers": [
+        {
+          "user_uuid": "6b51857a-bee2-4f6c-8dc7-04bae39b5c4b"
+        },
+        {
+          "user_uuid": "74347f08-1c78-45b5-8003-1741ccca4f28"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "user_uuid": "74347f08-1c78-45b5-8003-1741ccca4f28",
+      "username": "happycat423",
+      "handle": "@cat423",
+      "bio": "Cat lover | Tea enthusiast | Coder",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=59",
+      "instagram_url": "https://www.instagram.com/happycat423/",
+      "followers": [
+        {
+          "user_uuid": "c8f3660a-5cf3-436a-baf7-42723614218b"
+        },
+        {
+          "user_uuid": "92820fb2-b123-4c74-86b4-09b3942afd9c"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "user_uuid": "92820fb2-b123-4c74-86b4-09b3942afd9c",
+      "username": "goldenswan196",
+      "handle": "@swan196",
+      "bio": "Nature lover | Coffee addict | Dreamer",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=41",
+      "instagram_url": "https://www.instagram.com/goldenswan196/",
+      "followers": [
+        {
+          "user_uuid": "74347f08-1c78-45b5-8003-1741ccca4f28"
+        },
+        {
+          "user_uuid": "6246f451-fedb-4fee-a95e-4bbb64e30740"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "user_uuid": "6246f451-fedb-4fee-a95e-4bbb64e30740",
+      "username": "redgorilla678",
+      "handle": "@gorilla678",
+      "bio": "Fitness enthusiast | Coffee lover | Artist",
+
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=38",
+      "instagram_url": "https://www.instagram.com/redgorilla678/",
+      "followers": [
+        {
+          "user_uuid": "92820fb2-b123-4c74-86b4-09b3942afd9c"
+        },
+        {
+          "user_uuid": "8ed7f430-08e1-4420-b98c-8a5022c9a6db"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "user_uuid": "8ed7f430-08e1-4420-b98c-8a5022c9a6db",
+      "username": "happygoose826",
+      "handle": "@goose826",
+      "bio": "Nature lover | Traveler | Dreamer",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=35",
+      "instagram_url": "https://www.instagram.com/happygoose826/",
+      "followers": [
+        {
+          "user_uuid": "6246f451-fedb-4fee-a95e-4bbb64e30740"
+        },
+        {
+          "user_uuid": "858b779b-b77f-4790-a5be-c90924e556aa"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "user_uuid": "858b779b-b77f-4790-a5be-c90924e556aa",
+      "username": "greengorilla924",
+      "handle": "@gorilla924",
+      "bio": "Fitness enthusiast | Foodie | Dreamer",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=14",
+      "instagram_url": "https://www.instagram.com/greengorilla924/",
+      "followers": [
+        {
+          "user_uuid": "8ed7f430-08e1-4420-b98c-8a5022c9a6db"
+        },
+        {
+          "user_uuid": "af63ccbf-22ff-442d-9520-c1bb40a583a1"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "user_uuid": "af63ccbf-22ff-442d-9520-c1bb40a583a1",
+      "username": "blacksnake309",
+      "handle": "@snake309",
+      "bio": "Tech enthusiast | Musician | Gamer",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=15",
+      "instagram_url": "https://www.instagram.com/blacksnake309/",
+      "followers": [
+        {
+          "user_uuid": "858b779b-b77f-4790-a5be-c90924e556aa"
+        },
+        {
+          "user_uuid": "a020fa9e-6ad6-4f3c-8712-6b46afcd4638"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "user_uuid": "a020fa9e-6ad6-4f3c-8712-6b46afcd4638",
+      "username": "biglion221",
+      "handle": "@lion221",
+      "bio": "Animal lover | Photographer | Dreamer",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=13",
+      "instagram_url": "https://www.instagram.com/biglion221/",
+      "followers": [
+        {
+          "user_uuid": "af63ccbf-22ff-442d-9520-c1bb40a583a1"
+        },
+        {
+          "user_uuid": "9280179c-5e85-4395-83a7-1ca297d27271"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "user_uuid": "9280179c-5e85-4395-83a7-1ca297d27271",
+      "username": "blacksnake854",
+      "handle": "@snake854",
+      "bio": "Tech enthusiast | Gamer | Music lover",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=7",
+      "instagram_url": "https://www.instagram.com/blacksnake854/",
+      "followers": [
+        {
+          "user_uuid": "a020fa9e-6ad6-4f3c-8712-6b46afcd4638"
+        },
+        {
+          "user_uuid": "07727b82-7284-480e-bb36-b2ceb255deb5"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "user_uuid": "07727b82-7284-480e-bb36-b2ceb255deb5",
+      "username": "grayrabbit754",
+      "handle": "@rabbit754",
+      "bio": "Tech enthusiast | Bookworm | Nature lover",
+      "link": "https://www.fakepersongenerator.com",
+      "avatar": "https://i.pravatar.cc/400?img=22",
+      "instagram_url": "https://www.instagram.com/grayrabbit754/",
+      "followers": [
+        {
+          "user_uuid": "9280179c-5e85-4395-83a7-1ca297d27271"
+        },
+        {
+          "user_uuid": "84bcaa1c-36c8-4b21-a079-7f37f4452ab9"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+        "id": 0,
+        "timestamp": "2020-01-01T00:00,00.000Z",
+        "user_uuid": "6246f451-fedb-4fee-a95e-4bbb64e30740",
+        "thread_from": "Thread 1",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "This is the first thread",
+        "likes": [
+            {
+                "user_uuid": "07727b82-7284-480e-bb36-b2ceb255deb5"
+            },
+            {
+                "user_uuid": "858b779b-b77f-4790-a5be-c90924e556aa"
+            }
+        ]
+    }, 
+    {
+        "id": 1,
+        "timestamp": "2020-01-01T00:01:00.000Z",
+        "user_uuid": "8ed7f430-08e1-4420-b98c-8a5022c9a6db",
+        "thread_from": "Thread 2",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "This is the second thread",
+        "likes": [
+          {
+            "user_uuid": "a5b5936c-729e-4c07-8dc0-c9823c0ae78f"
+          },
+          {
+            "user_uuid": "a2339ef3-cdb3-4a83-921d-fe7aba1d156f"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "timestamp": "2020-01-01T00:02:00.000Z",
+        "user_uuid": "9fe6437d-45d7-4461-aa53-d50e01253195",
+        "thread_from": "Thread 3",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "This is the third thread",
+        "likes": [
+          {
+            "user_uuid": "a2339ef3-cdb3-4a83-921d-fe7aba1d156f"
+          },
+          {
+            "user_uuid": "6246f451-fedb-4fee-a95e-4bbb64e30740"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "timestamp": "2020-01-01T00:03:00.000Z",
+        "user_uuid": "f59d398d-761e-460c-a46e-4cb68960cbba",
+        "thread_from": "Thread 4",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "This is the fourth thread",
+        "likes": [
+          {
+            "user_uuid": "8ed7f430-08e1-4420-b98c-8a5022c9a6db"
+          },
+          {
+            "user_uuid": "c8f3660a-5cf3-436a-baf7-42723614218b"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "timestamp": "2020-01-01T00:04:00.000Z",
+        "user_uuid": "6b51857a-bee2-4f6c-8dc7-04bae39b5c4b",
+        "thread_from": "Thread 5",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "This is the fifth thread",
+        "likes": [
+          {
+            "user_uuid": "92820fb2-b123-4c74-86b4-09b3942afd9c"
+          },
+          {
+            "user_uuid": "9fe6437d-45d7-4461-aa53-d50e01253195"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "timestamp": "2020-01-01T00:05:00.000Z",
+        "user_uuid": "c8f3660a-5cf3-436a-baf7-42723614218b",
+        "thread_from": "Thread 6",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "This is the sixth thread",
+        "likes": [
+          {
+            "user_uuid": "6246f451-fedb-4fee-a95e-4bbb64e30740"
+          },
+          {
+            "user_uuid": "f59d398d-761e-460c-a46e-4cb68960cbba"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "timestamp": "2020-01-01T00:06:00.000Z",
+        "user_uuid": "74347f08-1c78-45b5-8003-1741ccca4f28",
+        "thread_from": "Thread 7",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "This is the seventh thread",
+        "likes": [
+          {
+            "user_uuid": "6246f451-fedb-4fee-a95e-4bbb64e30740"
+          },
+          {
+            "user_uuid": "c8f3660a-5cf3-436a-baf7-42723614218b"
+          }
+        ]
+      }
+  ]
+}
