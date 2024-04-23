@@ -1,8 +1,11 @@
 import React from 'react'
+import Thread from './Thread'
 
 const Feed = () => {
   return (
-    <div>Feed</div>
+    <div className='feed'>
+        <Thread />
+    </div>
   )
 }
 

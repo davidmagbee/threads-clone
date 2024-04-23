@@ -1,8 +1,13 @@
 import React from 'react'
+import PopUpThread from './PopUpThread'
+import ThreadInput from './ThreadInput'
 
 const PopUp = () => {
   return (
-    <div className='popup'>PopUp</div>
+    <div className='popup'>
+        <PopUpThread />
+        <ThreadInput />
+    </div>
   )
 }
 
