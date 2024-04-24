@@ -17,7 +17,7 @@ const Header = () => {
       <p>bio</p>
       <div className="sub-info-container">
         <p className="sub-text">
-          # of followers &#x2022; <a href="">user link</a>{" "}
+          # of followers &#x2022; <a href="tktk">user link</a>{" "}
         </p>
       </div>
       <button
