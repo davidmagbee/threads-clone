@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = ({ user }) => {
+const Header = ({ user, viewThreadsFeed, setViewThreadsFeed }) => {
   return (
     <header className="header">
       <div className="info-container">
@@ -27,8 +27,8 @@ const Header = ({ user }) => {
         Share Profile
       </button>
       <div className="button-container">
-        <button>Threads</button>
-        <button>Replies</button>
+        <button className={viewThreadsFeed ? "current": null} onClick={() => setViewThreadsFeed(true)}>Threads</button>
+        <button className={!viewThreadsFeed ? "current": null} onClick={() => setViewThreadsFeed(false)}>Replies</button>
       </div>
     </header>
   );

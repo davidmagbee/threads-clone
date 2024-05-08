@@ -276,8 +276,8 @@
     {
         "id": 0,
         "timestamp": "2020-01-01T00:00,00.000Z",
-        "user_uuid": "6246f451-fedb-4fee-a95e-4bbb64e30740",
-        "thread_from": "Thread 1",
+        "user_uuid": "c6f29f62-ae45-4853-87d4-33e2c5a87be9",
+        "thread_from": "c6f29f62-ae45-4853-87d4-33e2c5a87be9",
         "thread_to": null,
         "reply_to": null,
         "text": "This is the first thread",
