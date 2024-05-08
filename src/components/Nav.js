@@ -1,11 +1,13 @@
 import React from "react";
 import { FaGlobeAmericas, FaInstagram } from "react-icons/fa";
 
-const Nav = () => {
+const Nav = ({ url }) => {
   return (
     <nav className="navbar">
       <FaGlobeAmericas />
-      <FaInstagram />
+      <a href={url}>
+        <FaInstagram />
+      </a>
     </nav>
   );
 };
