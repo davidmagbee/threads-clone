@@ -1,23 +1,23 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({ user }) => {
   return (
     <header className="header">
       <div className="info-container">
         <div className="user-info-container">
-          <h1>username</h1>
+          <h1>{user.username}</h1>
           <p>
-            handle <span className="threads-info">threads.net</span>
+            {user.handle} <span className="threads-info">threads.net</span>
           </p>
         </div>
         <div className="avatar-container">
-          <img src="" alt="user avatar" />
+          <img src={user.avatar} alt="user avatar" />
         </div>
       </div>
-      <p>bio</p>
+      <p>{user.bio}</p>
       <div className="sub-info-container">
         <p className="sub-text">
-          # of followers &#x2022; <a href="tktk">user link</a>{" "}
+          {user.followers.length} followers &#x2022; <a href={user.link}>{user.link.replace('https://www.', '' )}</a>{" "}
         </p>
       </div>
       <button
