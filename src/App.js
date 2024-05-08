@@ -11,7 +11,7 @@ const App = () => {
   const [user, setUser] = useState(null);
   const [threads, setThreads] = useState(null);
   const [viewThreadsFeed, setViewThreadsFeed] = useState(true);
-  const [filteredThreads, setFilteredThreads] = useState(null);
+  const [filteredThreads, setFilteredThreads] = useState();
 
   // temporary user id hardcoded for testing
   const userId = "c6f29f62-ae45-4853-87d4-33e2c5a87be9";
@@ -72,7 +72,10 @@ const App = () => {
             setViewThreadsFeed={setViewThreadsFeed}
           />
 
-          <Feed />
+          <Feed 
+            user={user}
+            filteredThreads={filteredThreads}
+          />
 
           {/* <PopUp /> */}
         </div>

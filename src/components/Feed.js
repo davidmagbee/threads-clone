@@ -1,14 +1,10 @@
 import React from 'react'
 import Thread from './Thread'
 
-const Feed = () => {
+const Feed = ({user, filteredThreads}) => {
   return (
     <div className='feed'>
-        <Thread />
-        <Thread />
-        <Thread />
-        <Thread />
-        <Thread />
+        {filteredThreads?.map(filteredThread => <Thread key={filteredThread.id} user={user} filteredThread={filteredThread}/>)}
     </div>
   )
 }

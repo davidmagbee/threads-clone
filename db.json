@@ -276,7 +276,6 @@
     {
         "id": 0,
         "timestamp": "2020-01-01T00:00,00.000Z",
-        "user_uuid": "c6f29f62-ae45-4853-87d4-33e2c5a87be9",
         "thread_from": "c6f29f62-ae45-4853-87d4-33e2c5a87be9",
         "thread_to": null,
         "reply_to": null,
@@ -294,7 +293,7 @@
         "id": 1,
         "timestamp": "2020-01-01T00:01:00.000Z",
         "user_uuid": "8ed7f430-08e1-4420-b98c-8a5022c9a6db",
-        "thread_from": "Thread 2",
+        "thread_from": "c6f29f62-ae45-4853-87d4-33e2c5a87be9",
         "thread_to": null,
         "reply_to": null,
         "text": "This is the second thread",
@@ -310,8 +309,7 @@
       {
         "id": 2,
         "timestamp": "2020-01-01T00:02:00.000Z",
-        "user_uuid": "9fe6437d-45d7-4461-aa53-d50e01253195",
-        "thread_from": "Thread 3",
+        "thread_from": "c6f29f62-ae45-4853-87d4-33e2c5a87be9",
         "thread_to": null,
         "reply_to": null,
         "text": "This is the third thread",
@@ -327,11 +325,10 @@
       {
         "id": 3,
         "timestamp": "2020-01-01T00:03:00.000Z",
-        "user_uuid": "f59d398d-761e-460c-a46e-4cb68960cbba",
-        "thread_from": "Thread 4",
+        "thread_from": "c6f29f62-ae45-4853-87d4-33e2c5a87be9",
         "thread_to": null,
-        "reply_to": null,
-        "text": "This is the fourth thread",
+        "reply_to": 4,
+        "text": "Many Thanks!",
         "likes": [
           {
             "user_uuid": "8ed7f430-08e1-4420-b98c-8a5022c9a6db"
@@ -344,11 +341,10 @@
       {
         "id": 4,
         "timestamp": "2020-01-01T00:04:00.000Z",
-        "user_uuid": "6b51857a-bee2-4f6c-8dc7-04bae39b5c4b",
-        "thread_from": "Thread 5",
+        "thread_from": "8ed7f430-08e1-4420-b98c-8a5022c9a6db",
         "thread_to": null,
-        "reply_to": null,
-        "text": "This is the fifth thread",
+        "reply_to": 0,
+        "text": "This is great!",
         "likes": [
           {
             "user_uuid": "92820fb2-b123-4c74-86b4-09b3942afd9c"
@@ -361,10 +357,9 @@
       {
         "id": 5,
         "timestamp": "2020-01-01T00:05:00.000Z",
-        "user_uuid": "c8f3660a-5cf3-436a-baf7-42723614218b",
-        "thread_from": "Thread 6",
+        "thread_from": "92820fb2-b123-4c74-86b4-09b3942afd9c",
         "thread_to": null,
-        "reply_to": null,
+        "reply_to": 3,
         "text": "This is the sixth thread",
         "likes": [
           {
@@ -378,7 +373,6 @@
       {
         "id": 6,
         "timestamp": "2020-01-01T00:06:00.000Z",
-        "user_uuid": "74347f08-1c78-45b5-8003-1741ccca4f28",
         "thread_from": "Thread 7",
         "thread_to": null,
         "reply_to": null,
