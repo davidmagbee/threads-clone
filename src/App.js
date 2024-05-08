@@ -14,7 +14,7 @@ const App = () => {
 
       <Feed />
 
-      <PopUp />
+      {/* <PopUp /> */}
     </div>
   );
 };
