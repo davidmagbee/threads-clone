@@ -1,4 +1,5 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import moment from "moment";
 import {
   FaRegHeart,
   FaRegComment,
@@ -6,7 +7,25 @@ import {
   FaRegPaperPlane,
 } from "react-icons/fa";
 
-const Thread = ({user, filteredThread}) => {
+const Thread = ({ user, filteredThread, setOpenPopUp }) => {
+  const timePassed = moment().startOf("day").fromNow(filteredThread.timestamp);
+
+  // TODO: address error
+  const handleClick = () => {
+    setOpenPopUp(true);
+  }
+
+  const postLike = async() => {
+    
+    filteredThread.likes.push({user_uuid: user.user_uuid})
+    await fetch(`http://localhost:3000/threads/${filteredThread.id}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(filteredThread),
+  })
+
   return (
     <article className="thread">
       <div className="text-container">
@@ -21,15 +40,17 @@ const Thread = ({user, filteredThread}) => {
             <p>{filteredThread.text}</p>
           </div>
         </div>
-        <p className="sub-text">time</p>
+        <p className="sub-text">{timePassed}</p>
       </div>
       <div className="icons">
         <FaRegHeart />
-        <FaRegComment />
+        <FaRegComment onClick={handleClick}/>
         <FaRetweet />
         <FaRegPaperPlane />
       </div>
-      <p className="sub-text"><span>Replies</span> &#x2022; <span># Likes</span></p>
+      <p className="sub-text">
+        <span onClick={handleClick}>Replies</span> &#x2022; <span>{filteredThread.likes.length} Likes</span>
+      </p>
     </article>
   );
 };

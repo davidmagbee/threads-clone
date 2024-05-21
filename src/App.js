@@ -3,15 +3,18 @@ import { useState, useEffect } from "react";
 import Feed from "./components/Feed";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
-// import PopUp from "./components/PopUp";
+import PopUp from "./components/PopUp";
 // import Thread from "./components/Thread";
 // import ThreadInput from "./components/ThreadInput";
+
+import WriteIcon from "./components/WriteIcon";
 
 const App = () => {
   const [user, setUser] = useState(null);
   const [threads, setThreads] = useState(null);
   const [viewThreadsFeed, setViewThreadsFeed] = useState(true);
   const [filteredThreads, setFilteredThreads] = useState();
+  const [openPopUp, setOpenPopUp] = useState(false);
 
   // temporary user id hardcoded for testing
   const userId = "c6f29f62-ae45-4853-87d4-33e2c5a87be9";
@@ -38,18 +41,22 @@ const App = () => {
     } catch (error) {
       console.error(error);
     }
-  }
+  };
 
   const getThreadFeed = async () => {
     if (viewThreadsFeed) {
-      const standAloneThreads = threads?.filter((thread) => thread.reply_to === null)
-      setFilteredThreads(standAloneThreads)
+      const standAloneThreads = threads?.filter(
+        (thread) => thread.reply_to === null
+      );
+      setFilteredThreads(standAloneThreads);
     }
     if (!viewThreadsFeed) {
-    const replyThreads = threads?.filter((thread) => thread.reply_to!== null)
-    setFilteredThreads(replyThreads)
+      const replyThreads = threads?.filter(
+        (thread) => thread.reply_to !== null
+      );
+      setFilteredThreads(replyThreads);
     }
-  }
+  };
 
   useEffect(() => {
     getUser();
@@ -57,8 +64,8 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    getThreadFeed()
-  }, [user, threads, viewThreadsFeed])
+    getThreadFeed();
+  }, [user, threads, viewThreadsFeed]);
 
   return (
     <div>
@@ -66,18 +73,18 @@ const App = () => {
         <div className="app">
           <Nav url={user.instagram_url} />
 
-          <Header 
+          <Header
             user={user}
             viewThreadsFeed={viewThreadsFeed}
             setViewThreadsFeed={setViewThreadsFeed}
           />
 
-          <Feed 
-            user={user}
-            filteredThreads={filteredThreads}
-          />
+          <Feed user={user} filteredThreads={filteredThreads} />
 
-          {/* <PopUp /> */}
+          {openPopUp && <PopUp user={user} setOpenPopUp={setOpenPopUp} />}
+          <div onClick={() => setOpenPopUp(true)}>
+            <WriteIcon />
+          </div>
         </div>
       )}
     </div>
